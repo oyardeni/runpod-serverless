@@ -15,7 +15,7 @@ It is part of the [ivrit.ai](https://ivrit.ai) non-profit project.
 ## Contents
 
 - `Dockerfile`: Used to create the Docker image for the serverless function.
-- `handler.py`: The main script that handles the transcription process, placed inside the Docker image.
+- `rp_handler.py`: The main script that handles the transcription process, placed inside the Docker image.
 
 ## Setting up your inference endpoint
 
