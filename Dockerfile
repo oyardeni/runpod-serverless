@@ -18,5 +18,5 @@ RUN python3 -c 'import faster_whisper; m = faster_whisper.WhisperModel("ivrit-ai
 ADD rp_handler.py .
 
 # Call your file when your container starts
-CMD [ "python", "-u", "/rp_handler.py" ]
+CMD [ "python", "-u", "/infer.py" ]
 
