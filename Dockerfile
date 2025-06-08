@@ -15,7 +15,7 @@ RUN pip install stable-ts==2.18.3
 RUN python3 -c 'import faster_whisper; m = faster_whisper.WhisperModel("ivrit-ai/whisper-large-v3-turbo-ct2")'
 
 # Add your file
-ADD rp_handler.py .
+ADD infer.py .
 
 # Call your file when your container starts
 CMD [ "python", "-u", "/infer.py" ]
